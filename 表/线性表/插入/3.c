@@ -22,7 +22,7 @@ int main(int argc, char const *argv[])
 		}
 	}
 	
-	for (int i = len; i >= 0; i++)
+	for (int i = len; i >= 0; i--)
 	{
 		if (i == pos)
 		{
